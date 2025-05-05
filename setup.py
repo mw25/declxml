@@ -25,7 +25,7 @@ setup(
     author='Greg Atkin',
     author_email='greg.scott.atkin@gmail.com',
     license='MIT',
-    license_files=('LICENSE',)
+    license_files=('LICENSE',),
     py_modules=['declxml'],
     install_requires=['typing'],
     data_files=[('', ['py.typed'])],
