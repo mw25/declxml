@@ -25,6 +25,7 @@ setup(
     author='Greg Atkin',
     author_email='greg.scott.atkin@gmail.com',
     license='MIT',
+    license_files=('LICENSE',)
     py_modules=['declxml'],
     install_requires=['typing'],
     data_files=[('', ['py.typed'])],
@@ -34,7 +35,6 @@ setup(
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
     ],
     keywords='XML, Parsing, Serialization'
 )
